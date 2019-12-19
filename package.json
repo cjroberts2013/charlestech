@@ -1,11 +1,11 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "description": "CharlesTech.io Website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Charles Roberts",
-  "license": "ISC"
+	"name": "website",
+	"version": "1.0.0",
+	"description": "CharlesTech.io Website",
+	"main": "index.js",
+	"scripts": {
+		"devserver": "live-server"
+	},
+	"author": "Charles Roberts",
+	"license": "ISC"
 }
