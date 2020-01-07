@@ -66,8 +66,49 @@ body {
 	display: block;
 }
 
-@media screen and (max-width: 700px) {
+#about {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+#profile-img {
+	max-width: 100%;
+	min-width: 350px;
+}
+
+.about-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 50px;
+	color: #545454;
+}
+
+@media screen and (max-width: 850px) {
+	.about-content {
+		padding: 25px;
+		justify-content: flex-start;
+	}
+}
+
+@media screen and (max-width: 715px) {
 	.header-content h1 {
 		font-size: 40px;
+	}
+	#about {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto 1fr;
+	}
+	#profile-img {
+		min-width: 200px;
+	}
+	.about-content {
+		padding: 50px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#form {
+		margin-left: 20px;
 	}
 }
