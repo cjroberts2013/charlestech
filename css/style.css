@@ -84,6 +84,33 @@ body {
 	color: #545454;
 }
 
+footer {
+	background: linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0.55),
+			rgba(0, 0, 0, 0.55)
+		),
+		url(../img/footer-texture.jpg);
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#footer h4 {
+	padding: 2px;
+	color: #ccc;
+}
+
 @media screen and (max-width: 850px) {
 	.about-content {
 		padding: 25px;
@@ -105,10 +132,20 @@ body {
 	.about-content {
 		padding: 50px;
 	}
+	#footer-top-nav {
+		display: none;
+	}
+
+	#footer h4 {
+		font-size: 16px;
+	}
 }
 
 @media screen and (max-width: 400px) {
 	#form {
 		margin-left: 20px;
+	}
+	footer {
+		height: 100vh;
 	}
 }
