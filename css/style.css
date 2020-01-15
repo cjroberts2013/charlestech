@@ -87,17 +87,13 @@ body {
 footer {
 	background: linear-gradient(
 			to bottom right,
-			rgba(0, 0, 0, 0.55),
-			rgba(0, 0, 0, 0.55)
+			rgba(0, 0, 0, 0.75),
+			rgba(0, 0, 0, 0.95)
 		),
 		url(../img/footer-texture.jpg);
 	width: 100%;
-	height: 80vh;
+	height: auto;
 	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 #footer {
@@ -106,8 +102,8 @@ footer {
 	align-items: center;
 }
 
-#footer h4 {
-	padding: 2px;
+#footer p {
+	padding: 1px;
 	color: #ccc;
 }
 
@@ -136,6 +132,10 @@ footer {
 		display: none;
 	}
 
+	#foot-img {
+		margin: 50px 0;
+	}
+
 	#footer h4 {
 		font-size: 16px;
 	}
@@ -146,6 +146,10 @@ footer {
 		margin-left: 20px;
 	}
 	footer {
-		height: 100vh;
+		height: auto;
+	}
+
+	#footer p {
+		font-size: 12px;
 	}
 }
