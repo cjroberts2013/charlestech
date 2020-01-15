@@ -38,7 +38,7 @@ header {
 	left: 0;
 	background: #000;
 	z-index: 1;
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 .header-content {
@@ -77,8 +77,8 @@ header {
 footer {
 	background: linear-gradient(
 			to bottom right,
-			rgba(0, 0, 0, 0.75),
-			rgba(0, 0, 0, 0.95)
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
 		),
 		url(../img/footer-texture.jpg);
 	width: 100%;
@@ -174,5 +174,8 @@ footer {
 	}
 	.header-overlay {
 		height: 80vh;
+	}
+	.header-content h1 {
+		font-size: 35px;
 	}
 }
